@@ -3,9 +3,10 @@
 #                            where M is the length of the new word.
 # 2.Space Complexity ≈ O(N * L * B)
 
-# 3. find nearest 4 words: O(M + k),
-#                   M is the length of the input word, 
-#                   k is the number of words found in the sub-trie rooted at the last character of the input word.
+# 3. find nearest 4 words:  O(N * M * log(M)),
+#                   N: Number of words in the Trie.
+#                   M: Average length of a word in the Trie.
+# in depth analysis of each part is written inside the function
 
 # Where:
 # N: The number of words in the dictionary.
